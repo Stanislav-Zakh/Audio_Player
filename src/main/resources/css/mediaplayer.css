@@ -1,0 +1,87 @@
+/* Root pane styling */
+.root {
+    -fx-background-color: #2A3A4B;
+}
+
+/* Menu bar styling */
+.menu-bar {
+    -fx-background-color: #1F2A36;
+    -fx-text-fill: #efeb08;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: #efeb08;
+    
+}
+
+.menu-bar .menu-item {
+    -fx-text-fill: #efeb08;
+    -fx-background-color: #2A3A4B;
+}
+
+/* MediaPane styling */
+.media-pane {
+    -fx-background-color: #233040;
+}
+
+/* Labels styling */
+.label {
+    -fx-text-fill: #efeb08;
+    -fx-font-size: 14px;
+}
+
+.duration-label, .play-time, .volume-label {
+    -fx-text-fill: #efeb08;
+    -fx-font-size: 14px;
+}
+
+/* Buttons styling */
+.button {
+    -fx-background-color: #3A5068;
+    -fx-text-fill: #efeb08;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #4A627A;
+}
+
+.button:pressed {
+    -fx-background-color: #2A3A4B;
+}
+
+/* Repeat button styling */
+.repeat-button-clicked {
+    -fx-background-color: #f4d214;
+    -fx-text-fill: #2A3A4B;
+}
+.repeat-button-clicked:hover {
+    -fx-background-color: #efeb08;
+}
+
+
+/* Sliders styling */
+.slider .track {
+    -fx-background-color: #1F2A36;
+}
+
+.slider .thumb {
+    -fx-background-color: #3A5068;
+}
+
+/* TreeView (File View) styling */
+.tree-view {
+    -fx-background-color: #fff203;
+    -fx-text-fill: #E0E6ED;
+}
+
+.tree-view .tree-cell {
+    -fx-text-fill: #fff203;
+    -fx-background-color: #2A3A4B;
+    -fx-font-style: italic;
+}
+
+.tree-view .tree-cell:filled:selected {
+    -fx-background-color: #3A5068;
+    -fx-text-fill: #FFFFFF;
+}
