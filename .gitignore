@@ -1,0 +1,16 @@
+
+### Directories
+
+### Compiled classes and jars
+/target
+
+### VScode configs
+/.vscode
+
+### Application configs and default audio library for testing. 
+### They are created during the first execution of the application and updated during runtime.  
+/data
+
+### Files
+dependency-reduced-pom.xml
+NOTES.md
